@@ -1,0 +1,19 @@
+warshall.c -- An implementation of Warshall's algorithm for computing the
+              matrix of the transitive closure of a finite binary relation.
+
+Usage:
+
+Suppose you have a binary relation R on some finite set X, and you want to
+find the matrix of its transitive closure.  Look no further!
+
+Run the program and it will ask you for the first row of a boolean (zero-one)
+matrix.  Enter the matrix of your relation row by row; the program will figure
+out the size of your matrix after the first row is entered.
+
+Once complete, you'll get a pretty-print of the matrix of R, including a
+schematic of how R looks as a set on X = { a, b, c, d, ..., z }, followed
+by a pretty-print of the matrix of R* (and its set schematic).
+
+Javier Lombillo
+2018-12-05
+
